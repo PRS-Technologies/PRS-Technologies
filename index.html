@@ -16,12 +16,16 @@
         .btn { background: #ff6600; padding: 0.75rem 1.5rem; color: white; border: none; text-decoration: none; margin-top: 1rem; display: inline-block; }
         .product-gallery { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; }
         .product-gallery img { width: 200px; height: auto; border: 1px solid #ccc; padding: 0.5rem; background: #f9f9f9; }
+        .services-container { display: flex; gap: 2rem; margin-top: 1.5rem; }
+        .services-list { flex: 1; }
+        .services-images { flex: 1; display: flex; flex-direction: column; gap: 1rem; }
+        .services-images img { width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; }
     </style>
 </head>
 <body>
     <header>
         <div>
-            <img src="images/logo.png" alt="PRS Technologies Logo" style="height:50px; vertical-align:middle;">
+            <img src="https://i1.rgstatic.net/ii/profile.image/636479277629440-1528759893497_Q512/Alvaro-Gomez-21.jpg" style="height:50px; vertical-align:middle;">
             <strong>PRS Technologies</strong>
         </div>
         <nav>
@@ -35,42 +39,55 @@
     <div class="hero">
         <h1>Hub of Invention</h1>
         <p>Innovation starts here. Empowering industries with technology solutions.</p>
-        <img src="images/homepage-banner-clean.jpg" alt="PRS Home Banner">
+        <img src="https://i.ibb.co/twdjjd3S/homepage-banner-clean.png" alt="PRS Home Banner">
         <a class="btn" href="#contact">Get in Touch</a>
     </div>
 
     <section id="about">
         <h2>About PRS Technologies</h2>
-        <p>PRS Technologies is committed to bringing cutting-edge embedded hardware, automation, and energy-saving solutions to market. Our team delivers innovation through robust R&D, unmatched quality, and reliable after-sales support.</p>
+        <p>PRS Technologies delivers cutting-edge embedded hardware, intelligent automation, and energy-efficient solutions designed for tomorrow’s challenges. Backed by dedicated R&D, uncompromising quality, and reliable after-sales support, we empower innovation and build lasting value for our clients.</p>
     </section>
 
     <section id="services">
         <h2>Our Services</h2>
-        <ul>
-            <li>Embedded System Design</li>
-            <li>LED Driver & Power Supply Solutions</li>
-            <li>PCB Design & Prototyping</li>
-            <li>Automation & IoT Integration</li>
-            <li>Custom Hardware Solutions</li>
-        </ul>
+        <div class="services-container">
+            <div class="services-list">
+                <ul>
+                    <li>Embedded System Design</li>
+                    <li>LED Driver & Power Supply Solutions</li>
+                    <li>PCB Design & Prototyping</li>
+                    <li>Automation & IoT Integration</li>
+                    <li>Custom Hardware Solutions</li>
+                </ul>
+            </div>
+            <div class="services-images">
+                <img src="https://i0.wp.com/ucgosu.pl/wp-content/uploads/2019/02/Desk_Hardware_engineer-1900x800.jpg?fit=788%2C332&ssl=1" alt="Embedded Systems Service">
+            </div>
+        </div>
     </section>
 
     <section id="products">
-        <h2>Featured Products</h2>
-        <h3>LED Tube Lights</h3>
+        <h2>Products</h2>
+        <h3>LED In Door Lights</h3>
         <div class="product-gallery">
-            <img src="images/led-tube-5w.jpg" alt="LED Tube Light 5W">
-            <img src="images/led-tube-10w.jpg" alt="LED Tube Light 10W">
-            <img src="images/led-tube-20w.jpg" alt="LED Tube Light 20W">
-            <img src="images/led-tube-40w.jpg" alt="LED Tube Light 40W">
+            <img src="https://5.imimg.com/data5/ANDROID/Default/2023/2/RV/RK/VB/182089567/product-jpeg-500x500.jpg" alt="LED Light Night bulb">
+            <img src="https://cdn.thewirecutter.com/wp-content/media/2023/08/ledlightbulb-2048px-7107.jpg?auto=webp&quality=75&crop=1.91:1&width=1200" alt="LED Light Bulb">
+            <img src="https://barbarkharido.com/wp-content/uploads/2024/04/IMG-4624.jpg" alt="LED Light Dome Bulb">
+            <img src="https://www.goldmedalindia.com/blog/wp-content/uploads/2023/09/A-Comprehensive-Guide-to-LED-Panel-Lights.jpg" alt="LED Panel Light">
+            <img src="https://www.amplitechgroup.in/wp-content/uploads/2022/11/wooden-table-designify-5.png" alt="LED Tube Light">
         </div>
-        <h3>LED Flood Lights</h3>
+        <h3>LED Out Door Lights</h3>
         <div class="product-gallery">
-            <img src="images/led-flood-50w.jpg" alt="LED Flood Light 50W">
-            <img src="images/led-flood-100w.jpg" alt="LED Flood Light 100W">
-            <img src="images/led-flood-150w.jpg" alt="LED Flood Light 150W">
-            <img src="images/led-flood-200w.jpg" alt="LED Flood Light 200W">
-            <img src="images/led-flood-300w.jpg" alt="LED Flood Light 300W">
+            <img src="https://ledmarket.in/wp-content/uploads/2023/08/60w-flood-light.png" alt="LED Flood Lights">
+            <img src="https://electrickharido.com/wp-content/uploads/2019/07/20-w-bajaj-led-street-lights-500x500.jpg" alt="LED Street Lights">
+            <img src="https://fireflier.com/wp-content/uploads/2019/04/LED-High-Bay-Light-Aluminum-Reflector-480x320.jpg" alt="LED Highbay Light">
+        </div>
+        <h3>Hardware Design and Development Services</h3>
+        <div class="product-gallery">
+            <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/464c0622-c088-424e-bd43-366e4248f09e.png?auto=format&q=50" alt="Design Tool">
+            <img src="https://www.911eda.com/wp-content/uploads/2023/10/911eda-altium-pcb-design-services-at-work.webp" alt="PCB Design">
+            <img src="https://www.byte-lab.com/wp-content/uploads/2021/09/Image-1-9.png" alt="PCB Board Testing">
+            <img src="https://yoginsavani.com/wp-content/uploads/2024/07/Real-time-in-Embedded-Systems.jpg" alt="Real-time Embedded">
         </div>
     </section>
 
@@ -78,7 +95,7 @@
         <h2>Contact Us</h2>
         <p>Email: prstechnologies2024@gmail.com</p>
         <p>Phone: +91-8143450128</p>
-        <p>Address: Hyderabad, India</p>
+        <p>Address: Hyderabad, Telangana, India</p>
     </section>
 
     <footer>
