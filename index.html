@@ -9,17 +9,18 @@
         body { font-family: 'Roboto', sans-serif; margin: 0; padding: 0; }
         header { background: #002244; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
         nav a { color: white; text-decoration: none; margin: 0 1rem; }
-        .hero { text-align: center; color: white; background: #111; padding: 3rem 2rem; }
+        .hero { text-align: center; color: white; background: #111; padding: 3rem 2rem;display: flex;               /* <-- Added */
+    flex-direction: column; align-items: center;   }
         .hero img { max-width: 100%; height: auto; border-radius: 8px; }
         section { padding: 4rem 2rem; max-width: 1100px; margin: auto; }
         footer { background: #002244; color: white; text-align: center; padding: 1rem; }
-        .btn { background: #ff6600; padding: 0.75rem 1.5rem; color: white; border: none; text-decoration: none; margin-top: 1rem; display: inline-block; }
+        .btn { background: #ff6600; padding: 0.75rem 1.5rem; color: white; border: none; text-decoration: none;text-alignment: Center; margin-top: 1rem; display: inline-block; }
         .product-gallery { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; }
         .product-gallery img { width: 200px; height: auto; border: 1px solid #ccc; padding: 0.5rem; background: #f9f9f9; }
         .services-container { display: flex; gap: 2rem; margin-top: 1.5rem; }
         .services-list { flex: 1; }
         .services-images { flex: 1; display: flex; flex-direction: column; gap: 1rem; }
-        .services-images img { width: 100%; height: auto; border-radius: 8px; border: 1px solid #ddd; }
+        .services-images img { width: 50%; height: auto; border-radius: 8px; border: 1px solid #ddd; }
     </style>
 </head>
 <body>
@@ -39,9 +40,12 @@
     <div class="hero">
         <h1>Hub of Invention</h1>
         <p>Innovation starts here. Empowering industries with technology solutions.</p>
-        <img src="https://i.ibb.co/twdjjd3S/homepage-banner-clean.png" alt="PRS Home Banner">
-        <a class="btn" href="#contact">Get in Touch</a>
-    </div>
+     
+  <img src="https://i.ibb.co/twdjjd3S/homepage-banner-clean.png"alt="PRS Home Banner">
+      <a class="btn" href="#contact">Get in Touch</a>
+      
+    </div>                                                                             
+    
 
     <section id="about">
         <h2>About PRS Technologies</h2>
@@ -61,7 +65,8 @@
                 </ul>
             </div>
             <div class="services-images">
-                <img src="https://i0.wp.com/ucgosu.pl/wp-content/uploads/2019/02/Desk_Hardware_engineer-1900x800.jpg?fit=788%2C332&ssl=1" alt="Embedded Systems Service">
+                <img src="https://i.ibb.co/b50m1BGK/01.png" alt="Embedded Systems Service">
+           
             </div>
         </div>
     </section>
@@ -73,7 +78,7 @@
             <img src="https://5.imimg.com/data5/ANDROID/Default/2023/2/RV/RK/VB/182089567/product-jpeg-500x500.jpg" alt="LED Light Night bulb">
             <img src="https://cdn.thewirecutter.com/wp-content/media/2023/08/ledlightbulb-2048px-7107.jpg?auto=webp&quality=75&crop=1.91:1&width=1200" alt="LED Light Bulb">
             <img src="https://barbarkharido.com/wp-content/uploads/2024/04/IMG-4624.jpg" alt="LED Light Dome Bulb">
-            <img src="https://www.goldmedalindia.com/blog/wp-content/uploads/2023/09/A-Comprehensive-Guide-to-LED-Panel-Lights.jpg" alt="LED Panel Light">
+ <img src="https://www.goldmedalindia.com/blog/wp-content/uploads/2023/09/A-Comprehensive-Guide-to-LED-Panel-Lights.jpg" alt="LED Panle Light">
             <img src="https://www.amplitechgroup.in/wp-content/uploads/2022/11/wooden-table-designify-5.png" alt="LED Tube Light">
         </div>
         <h3>LED Out Door Lights</h3>
@@ -81,23 +86,25 @@
             <img src="https://ledmarket.in/wp-content/uploads/2023/08/60w-flood-light.png" alt="LED Flood Lights">
             <img src="https://electrickharido.com/wp-content/uploads/2019/07/20-w-bajaj-led-street-lights-500x500.jpg" alt="LED Street Lights">
             <img src="https://fireflier.com/wp-content/uploads/2019/04/LED-High-Bay-Light-Aluminum-Reflector-480x320.jpg" alt="LED Highbay Light">
-        </div>
-        <h3>Hardware Design and Development Services</h3>
-        <div class="product-gallery">
-            <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/464c0622-c088-424e-bd43-366e4248f09e.png?auto=format&q=50" alt="Design Tool">
-            <img src="https://www.911eda.com/wp-content/uploads/2023/10/911eda-altium-pcb-design-services-at-work.webp" alt="PCB Design">
-            <img src="https://www.byte-lab.com/wp-content/uploads/2021/09/Image-1-9.png" alt="PCB Board Testing">
-            <img src="https://yoginsavani.com/wp-content/uploads/2024/07/Real-time-in-Embedded-Systems.jpg" alt="Real-time Embedded">
+  
         </div>
     </section>
-
+        </div>
+   <h3>Hardware Design and Developement services</h3>
+        <div class="product-gallery">
+            <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/464c0622-c088-424e-bd43-366e4248f09e.png?auto=format&q=50">
+            <img src="https://www.911eda.com/wp-content/uploads/2023/10/911eda-altium-pcb-design-services-at-work.webp" alt="LED Street Lights">
+            <img src="https://www.byte-lab.com/wp-content/uploads/2021/09/Image-1-9.png" alt="PCB Board Testing">
+        <img src="https://yoginsavani.com/wp-content/uploads/2024/07/Real-time-in-Embedded-Systems.jpg" alt="LED Flood Light 150W">
+          
+        </div>
+    </section>
     <section id="contact">
         <h2>Contact Us</h2>
         <p>Email: prstechnologies2024@gmail.com</p>
         <p>Phone: +91-8143450128</p>
-        <p>Address: Hyderabad, Telangana, India</p>
+        <p>Address: Hyderabad,Telangana,India. </p>
     </section>
-
     <footer>
         <p>&copy; 2025 PRS Technologies. All rights reserved.</p>
     </footer>
